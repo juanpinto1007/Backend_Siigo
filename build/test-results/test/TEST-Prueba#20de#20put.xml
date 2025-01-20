@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Prueba de put" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-01-19T23:05:07" hostname="DESKTOP-K4UJ5QC" time="4.72">
+  <properties/>
+  <testcase name="Eliminar de usuario" classname="Prueba de put" time="4.72">
+    <failure message="java.lang.AssertionError: expected:&lt;300&gt; but was:&lt;204&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;300&gt; but was:&lt;204&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:395)
+	at co.com.prueba_api_auto.certificacion.stepDefinitions.GeneralStep.elEsperaraUnCodigoDeEstado(GeneralStep.java:55)
+	at ✽.el esperara un codigo de estado 300(file:///C:/Users/USUARIO/Documents/Automatización-Teoría/apis/SOAP/co.com.prueba_api_auto.certificacion/co.com.prueba_api_auto.certificacion/src/test/resources/features/eliminar_usuario.feature:11)
+</failure>
+  </testcase>
+  <system-out><![CDATA[2025-01-19 18:05:07 [Test worker] DEBUG:: Running feature from file:///C:/Users/USUARIO/Documents/Automatización-Teoría/apis/SOAP/co.com.prueba_api_auto.certificacion/co.com.prueba_api_auto.certificacion/src/test/resources/features/eliminar_usuario.feature
+2025-01-19 18:05:07 [Test worker] INFO :: 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Eliminar de usuario(prueba-de-put;eliminar-de-usuario)
+--------------------------------------------------------------------------------
+2025-01-19 18:05:07 [Test worker] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\actualizacion_usuario.feature
+2025-01-19 18:05:07 [Test worker] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\consultar_usuarios.feature
+2025-01-19 18:05:07 [Test worker] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\creacion_usuario.feature
+2025-01-19 18:05:07 [Test worker] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\eliminar_usuario.feature
+2025-01-19 18:05:08 [Test worker] DEBUG:: STARTING STEP: GeneralStep.elRealizaElConsumoDelServicioParaLaEiminaciónDelEmpleadoConElMetodoDeleted - performAs
+2025-01-19 18:05:08 [Test worker] DEBUG:: STARTING STEP: EliminarUsuarioRestDeleted.performAs - {0} executes a DELETE on the resource #resource
+2025-01-19 18:05:10 [Test worker] DEBUG:: Get connection for route {s}->https://reqres.in:443
+2025-01-19 18:05:10 [Test worker] DEBUG:: Connecting to reqres.in:443
+2025-01-19 18:05:11 [Test worker] DEBUG:: CookieSpec selected: ignoreCookies
+2025-01-19 18:05:11 [Test worker] DEBUG:: Auth cache not set in the context
+2025-01-19 18:05:11 [Test worker] DEBUG:: Target auth state: UNCHALLENGED
+2025-01-19 18:05:11 [Test worker] DEBUG:: Proxy auth state: UNCHALLENGED
+2025-01-19 18:05:11 [Test worker] DEBUG:: Attempt 1 to execute request
+2025-01-19 18:05:11 [Test worker] DEBUG:: Sending request: DELETE /api/users/2 HTTP/1.1
+2025-01-19 18:05:11 [Test worker] DEBUG::  >> "DELETE /api/users/2 HTTP/1.1[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  >> "Content-Type: application/json[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  >> "Accept: */*[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  >> "Host: reqres.in[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  >> "Connection: Keep-Alive[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.15)[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  >> "[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG:: >> DELETE /api/users/2 HTTP/1.1
+2025-01-19 18:05:11 [Test worker] DEBUG:: >> Content-Type: application/json
+2025-01-19 18:05:11 [Test worker] DEBUG:: >> Accept: */*
+2025-01-19 18:05:11 [Test worker] DEBUG:: >> Host: reqres.in
+2025-01-19 18:05:11 [Test worker] DEBUG:: >> Connection: Keep-Alive
+2025-01-19 18:05:11 [Test worker] DEBUG:: >> User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.15)
+2025-01-19 18:05:11 [Test worker] DEBUG:: >> Accept-Encoding: gzip,deflate
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "HTTP/1.1 204 No Content[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Date: Sun, 19 Jan 2025 23:05:11 GMT[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Content-Length: 0[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Connection: keep-alive[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1737327911&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=EQ63bE04%2B2bL%2BhMeqnzVElLNw988Vf5g8CndJ%2FnHuQU%3D"}]}[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1737327911&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=EQ63bE04%2B2bL%2BhMeqnzVElLNw988Vf5g8CndJ%2FnHuQU%3D[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "X-Powered-By: Express[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Access-Control-Allow-Origin: *[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Via: 1.1 vegur[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "cf-cache-status: DYNAMIC[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "Server: cloudflare[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "CF-RAY: 904a77d73bfa09e6-MIA[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "server-timing: cfL4;desc="?proto=TCP&rtt=64332&min_rtt=63891&rtt_var=24842&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3106&recv_bytes=725&delivery_rate=64962&cwnd=240&unsent_bytes=0&cid=6e90023529528042&ts=378&x=0"[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG::  << "[\r][\n]"
+2025-01-19 18:05:11 [Test worker] DEBUG:: Receiving response: HTTP/1.1 204 No Content
+2025-01-19 18:05:11 [Test worker] DEBUG:: << HTTP/1.1 204 No Content
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Date: Sun, 19 Jan 2025 23:05:11 GMT
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Content-Length: 0
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Connection: keep-alive
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1737327911&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=EQ63bE04%2B2bL%2BhMeqnzVElLNw988Vf5g8CndJ%2FnHuQU%3D"}]}
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1737327911&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=EQ63bE04%2B2bL%2BhMeqnzVElLNw988Vf5g8CndJ%2FnHuQU%3D
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2025-01-19 18:05:11 [Test worker] DEBUG:: << X-Powered-By: Express
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Access-Control-Allow-Origin: *
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Via: 1.1 vegur
+2025-01-19 18:05:11 [Test worker] DEBUG:: << cf-cache-status: DYNAMIC
+2025-01-19 18:05:11 [Test worker] DEBUG:: << Server: cloudflare
+2025-01-19 18:05:11 [Test worker] DEBUG:: << CF-RAY: 904a77d73bfa09e6-MIA
+2025-01-19 18:05:11 [Test worker] DEBUG:: << server-timing: cfL4;desc="?proto=TCP&rtt=64332&min_rtt=63891&rtt_var=24842&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3106&recv_bytes=725&delivery_rate=64962&cwnd=240&unsent_bytes=0&cid=6e90023529528042&ts=378&x=0"
+2025-01-19 18:05:11 [Test worker] DEBUG:: Connection can be kept alive indefinitely
+2025-01-19 18:05:11 [Test worker] DEBUG:: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@9f48198
+2025-01-19 18:05:11 [Test worker] DEBUG:: Connection can be kept alive indefinitely
+2025-01-19 18:05:11 [Test worker] DEBUG:: STEP DONE: {0} executes a DELETE on the resource #resource
+2025-01-19 18:05:11 [Test worker] DEBUG:: STEP DONE: performAs
+2025-01-19 18:05:11 [Test worker] ERROR:: 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+Eliminar de usuario
+-----------------------------------------------------------------------
+2025-01-19 18:05:11 [Test worker] DEBUG:: RELATED ISSUES: 
+2025-01-19 18:05:11 [Test worker] ERROR::     Test failed at step: Then validacion status
+2025-01-19 18:05:11 [Test worker] ERROR::     expected:<300> but was:<204>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

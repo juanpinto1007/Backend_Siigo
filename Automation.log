@@ -1,0 +1,213 @@
+2025-01-19 17:16:07 [Test worker] DEBUG:: Created injector for module net.thucydides.core.guice.ThucydidesModule
+2025-01-19 17:16:07 [Test worker] DEBUG:: Running feature from file:///C:/Users/USUARIO/Documents/Automatización-Teoría/apis/SOAP/co.com.prueba_api_auto.certificacion/co.com.prueba_api_auto.certificacion/src/test/resources/features/consultar_usuarios.feature
+2025-01-19 17:16:07 [Test worker] DEBUG:: Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+2025-01-19 17:16:07 [Test worker] INFO :: 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2025-01-19 17:16:07 [Test worker] DEBUG:: Test suite started for story net.thucydides.core.model.Story@e7ae9b29
+2025-01-19 17:16:07 [Test worker] INFO :: Test Suite Started: Prueba de get
+2025-01-19 17:16:07 [Test worker] DEBUG:: Running feature from file:///C:/Users/USUARIO/Documents/Automatización-Teoría/apis/SOAP/co.com.prueba_api_auto.certificacion/co.com.prueba_api_auto.certificacion/src/test/resources/features/consultar_usuarios.feature
+2025-01-19 17:16:07 [Test worker] DEBUG:: Test suite started for story net.thucydides.core.model.Story@e7ae9b29
+2025-01-19 17:16:07 [Test worker] INFO :: Test Suite Started: Prueba de get
+2025-01-19 17:16:07 [Test worker] DEBUG:: Running feature from file:///C:/Users/USUARIO/Documents/Automatización-Teoría/apis/SOAP/co.com.prueba_api_auto.certificacion/co.com.prueba_api_auto.certificacion/src/test/resources/features/consultar_usuarios.feature
+2025-01-19 17:16:07 [Test worker] INFO :: 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+prueba metodo get(prueba-de-get;prueba-metodo-get)
+--------------------------------------------------------------------------------
+2025-01-19 17:16:07 [Test worker] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\actualizacion_usuario.feature
+2025-01-19 17:16:07 [Test worker] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\consultar_usuarios.feature
+2025-01-19 17:16:07 [Test worker] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\creacion_usuario.feature
+2025-01-19 17:16:08 [Test worker] DEBUG:: STARTING STEP: GeneralStep.elConsumeElServicioDeConsultaDeUsuarios - performAs
+2025-01-19 17:16:08 [Test worker] DEBUG:: STARTING STEP: ListaCompletaEmpleadosRest.performAs - performAs
+2025-01-19 17:16:08 [Test worker] DEBUG:: STARTING STEP: ConGetListaCompletaDeEmpleados.performAs - {0} executes a GET on the resource #resource
+2025-01-19 17:16:11 [Test worker] DEBUG:: Get connection for route {s}->https://reqres.in:443
+2025-01-19 17:16:11 [Test worker] DEBUG:: Connecting to reqres.in:443
+2025-01-19 17:16:11 [Test worker] DEBUG:: CookieSpec selected: ignoreCookies
+2025-01-19 17:16:11 [Test worker] DEBUG:: Auth cache not set in the context
+2025-01-19 17:16:11 [Test worker] DEBUG:: Target auth state: UNCHALLENGED
+2025-01-19 17:16:11 [Test worker] DEBUG:: Proxy auth state: UNCHALLENGED
+2025-01-19 17:16:11 [Test worker] DEBUG:: Attempt 1 to execute request
+2025-01-19 17:16:11 [Test worker] DEBUG:: Sending request: GET /api/users?page=2 HTTP/1.1
+2025-01-19 17:16:11 [Test worker] DEBUG::  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  >> "Content-Type: application/json[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  >> "Accept: */*[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  >> "Host: reqres.in[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  >> "Connection: Keep-Alive[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.15)[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  >> "[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG:: >> GET /api/users?page=2 HTTP/1.1
+2025-01-19 17:16:11 [Test worker] DEBUG:: >> Content-Type: application/json
+2025-01-19 17:16:11 [Test worker] DEBUG:: >> Accept: */*
+2025-01-19 17:16:11 [Test worker] DEBUG:: >> Host: reqres.in
+2025-01-19 17:16:11 [Test worker] DEBUG:: >> Connection: Keep-Alive
+2025-01-19 17:16:11 [Test worker] DEBUG:: >> User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.15)
+2025-01-19 17:16:11 [Test worker] DEBUG:: >> Accept-Encoding: gzip,deflate
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "HTTP/1.1 200 OK[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Date: Sun, 19 Jan 2025 22:16:11 GMT[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Transfer-Encoding: chunked[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Connection: keep-alive[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1737315242&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=1j5%2B7%2FwOqML7WaJKgovh2tBSJ9Pid%2Bn5u5LyqYNHbxU%3D"}]}[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1737315242&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=1j5%2B7%2FwOqML7WaJKgovh2tBSJ9Pid%2Bn5u5LyqYNHbxU%3D[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "X-Powered-By: Express[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Access-Control-Allow-Origin: *[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Etag: W/"440-ZjsmMKR8P3usr2uJZbOCGCxC3Uw"[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Via: 1.1 vegur[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Cache-Control: max-age=14400[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "CF-Cache-Status: HIT[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Age: 2440[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Vary: Accept-Encoding[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Server: cloudflare[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "CF-RAY: 904a3011ecf6d9fd-MIA[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Content-Encoding: gzip[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "server-timing: cfL4;desc="?proto=TCP&rtt=47299&min_rtt=42189&rtt_var=19471&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3105&recv_bytes=727&delivery_rate=103818&cwnd=244&unsent_bytes=0&cid=a1c988d141648066&ts=188&x=0"[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG:: Receiving response: HTTP/1.1 200 OK
+2025-01-19 17:16:11 [Test worker] DEBUG:: << HTTP/1.1 200 OK
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Date: Sun, 19 Jan 2025 22:16:11 GMT
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Content-Type: application/json; charset=utf-8
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Transfer-Encoding: chunked
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Connection: keep-alive
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1737315242&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=1j5%2B7%2FwOqML7WaJKgovh2tBSJ9Pid%2Bn5u5LyqYNHbxU%3D"}]}
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1737315242&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=1j5%2B7%2FwOqML7WaJKgovh2tBSJ9Pid%2Bn5u5LyqYNHbxU%3D
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2025-01-19 17:16:11 [Test worker] DEBUG:: << X-Powered-By: Express
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Access-Control-Allow-Origin: *
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Etag: W/"440-ZjsmMKR8P3usr2uJZbOCGCxC3Uw"
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Via: 1.1 vegur
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Cache-Control: max-age=14400
+2025-01-19 17:16:11 [Test worker] DEBUG:: << CF-Cache-Status: HIT
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Age: 2440
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Vary: Accept-Encoding
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Server: cloudflare
+2025-01-19 17:16:11 [Test worker] DEBUG:: << CF-RAY: 904a3011ecf6d9fd-MIA
+2025-01-19 17:16:11 [Test worker] DEBUG:: << Content-Encoding: gzip
+2025-01-19 17:16:11 [Test worker] DEBUG:: << server-timing: cfL4;desc="?proto=TCP&rtt=47299&min_rtt=42189&rtt_var=19471&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3105&recv_bytes=727&delivery_rate=103818&cwnd=244&unsent_bytes=0&cid=a1c988d141648066&ts=188&x=0"
+2025-01-19 17:16:11 [Test worker] DEBUG:: Connection can be kept alive indefinitely
+2025-01-19 17:16:11 [Test worker] DEBUG:: Parsing response as: application/json; charset=utf-8
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "1a4[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2]=o[0xdb]0[0x10][0x6][0xe0][0xbf]B[0xdc][0xd0]I[0xa5]"[0xf]MB[0xc0]H[0xd1][0xa0][0x1f][0x83][0xbb][0x14][0xdd][0x8a][0xc2][0xb8][0x88]'[0x9a])E[0xaa]G[0xaa][0xae]a[0xf8][0xbf][0x17][0xa2][0x8c]*[0x10][0xec]@[0x1b][0x8f]z[0xdf][0xd3]3[0xf0][0x8][0x1d][0x1a][0x2][0xb5]*[0xa0]#[0xde][0x8e][0xc3][0xbb][0x2]RH[0xe8]@U[0xab][0xf3]1[0x89]9[0xa7]1![0xa8][0x1f]G[0xb0][0x1a][0xd4]m[0x1][0xd4][0xa2]u[0xa0][0xa0][0xb5][0xf5][0xe][0xc9]I[0x87][0xfb][0x18][0xfc]{[0xa6][0xdf]LQZ[0xf][0x5]4[0x96]c[0xda]zl[0x9][0x14]|[0x1d]sP[0x80][0xc3][0xe9]v[0x93][P[0x0][0xfe][0xc1][0x84][0xc][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "v)uQ[0x95][0xe5][0xff]E[0xa5]mM[0xd9]`M[0xb1][0xbc]}k[4$[0x9f];[0x3][0xa7]b[0xa4][0xdc]M[0x14]g[0xbd][0x8e]x[0x90][\r][0xb1][0xe9]_[0xc5]l[0xc6][0xe4][0xc][0xf3][0xe9][0xdc][[0xca][0xb9][0xbb][0xc0][0xb9][0x9f]8)<"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "Y[0x8c][0xb2][0xe9][0xfd]/[0xba]N[0xf9][0x9e]Ss[0xc9][0xd0]Y[0xca][0xb8][0xbf][0xc0][0xa8]n&[0xc7][0xd3][0x81][0x83][0x97][0x8d]%[0xa7][0xe3]u[0xc7][0x87]!5g[0xe4][0xce]RGus[0x9]RM[0x10]C[0x81][\r]I[0xd2]{[0xe4][0xd7]([0x9f]snf[0xf9]8[0xb6][0x16]c[0xaa]K[0x98][0xd5][0x84]a[0xac]w[0xe4][0xe4].[0xec][0xc9][0xb9][0xeb][0x96]o96[0xb3]|[0xc9][0xa5][0xc5][0x94][0xd5]K[0xca][0xcf][0x2]b[0xdf]u[0x81][0x13][0xa8]#[0xf4][0xec]^[0xb4][0xeb][0xe0][0x13][0xf9]T[0xa3][0xd6][0x7]i[0xc3]C[0x9f][0xda]m[0xc]=[0xd7][0xb4][0x1e][0x17][0xbf][0x19]nZ[0xd2][0xb6]o[0xd7][0xcf]1[0xf8]<[0xd7][0xd8]vh[0x8d]_35[0xc4][0x8c][0x3],[0xd1][0xdf]4<.[0xcb][0xa4]Eh[0xc4][0x9e]m[0xb2][0xde][0x8][0xf2][0xda]Q[0x8c]"[0x86][0xda][0xa2][0x13][0xc3]*[0x14][0xe7][0xdf]>[0x88][\r]%[0xf1]8[0xe][0xe2]q@[0x8]C[0x9e][0x18][0x13][0x9][0x9b]D[0x13]X[0x1c]B/[0xe1]t[0xfa][0x7]$=[0xb4][0xd8]@[0x4][0x0][0x0]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "0[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG::  << "[\r][\n]"
+2025-01-19 17:16:11 [Test worker] DEBUG:: Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2025-01-19 17:16:11 [Test worker] DEBUG:: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@10326712
+2025-01-19 17:16:11 [Test worker] DEBUG:: Connection can be kept alive indefinitely
+2025-01-19 17:16:11 [Test worker] DEBUG:: STEP DONE: {0} executes a GET on the resource #resource
+2025-01-19 17:16:11 [Test worker] DEBUG:: STEP DONE: performAs
+2025-01-19 17:16:12 [Test worker] DEBUG:: STEP DONE: performAs
+2025-01-19 17:16:12 [Test worker] INFO :: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+prueba metodo get
+----------------------------------------------------------------------
+2025-01-19 17:16:12 [Test worker] DEBUG:: Reporting formats: [JSON, HTML]
+2025-01-19 17:16:12 [Test worker] DEBUG:: Reporting formats: [JSON, HTML]
+2025-01-19 17:16:12 [Test worker] DEBUG:: Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@29492edc
+2025-01-19 17:16:12 [pool-1-thread-1] DEBUG:: Processing test outcome Prueba de get:prueba metodo get
+2025-01-19 17:16:12 [pool-1-thread-1] DEBUG:: net.thucydides.core.reports.json.JSONTestOutcomeReporter@29492edc: Generating report for test outcome: Prueba de get:prueba metodo get
+2025-01-19 17:16:12 [pool-1-thread-1] DEBUG:: Generating JSON report for prueba metodo get to file C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\target\site\serenity\f7af59e39ec413e746ef3f50613dde0eb0aeb3add393a47af6e3876660acde6a.json (using temp file C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\target\site\serenity\f7af59e39ec413e746ef3f50613dde0eb0aeb3add393a47af6e3876660acde6a.jsondab01483-f205-43d4-8c48-00aa39a6ebfa)
+2025-01-19 17:16:12 [pool-1-thread-1] DEBUG:: Processing test outcome Prueba de get:prueba metodo get done
+2025-01-19 17:16:12 [Test worker] DEBUG:: Shutting down executor service
+2025-01-19 17:16:12 [Test worker] DEBUG:: Reports generated in: 107 ms
+2025-01-19 17:16:12 [Test worker] DEBUG:: Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@a32c040
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: Processing test outcome Prueba de get:prueba metodo get
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@a32c040: Generating report for test outcome: Prueba de get:prueba metodo get
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\actualizacion_usuario.feature
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\consultar_usuarios.feature
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\creacion_usuario.feature
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: Requirements loaded in 00:00:00.042
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: Requirements loaded and indexed in 00:00:00.045
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/default.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/default_en_GB.ftl"): Not found
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/default_en.ftl"): Not found
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/default.ftl"): Found
+2025-01-19 17:16:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/default.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/default.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/favicon.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/favicon_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/favicon_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/favicon.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/favicon.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/favicon.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/common.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/common_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/common_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/common.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/common.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/common.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/bootstrap-icons.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/bootstrap-icons_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/bootstrap-icons_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/bootstrap-icons.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/bootstrap-icons.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/bootstrap-icons.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/jquery.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/jquery.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/jquery.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/treeview.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/treeview_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/treeview_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/treeview.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/treeview.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/treeview.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/datatables.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/datatables_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/datatables_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/datatables.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/datatables.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/datatables.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/css.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/css_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/css_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/css.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/css.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/css.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/jquery-ui.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/jquery-ui.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/jquery-ui.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: "freemarker/libraries/datatables.ftl"("en_GB", utf-8, parsed) cached copy not yet stale; using cached.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/imgpreview.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/imgpreview.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/imgpreview.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/components/report-data.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/report-data_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/report-data_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/report-data.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/components/report-data.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/components/report-data.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/components/stacktrace.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/stacktrace_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/stacktrace_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/stacktrace.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/components/stacktrace.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/components/stacktrace.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/menu.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/menu_en_GB.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/menu_en.ftl"): Not found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/menu.ftl"): Found
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/menu.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/menu.ftl"
+2025-01-19 17:16:13 [pool-2-thread-1] DEBUG:: Processing test outcome Prueba de get:prueba metodo get done
+2025-01-19 17:16:13 [Test worker] DEBUG:: Shutting down executor service
+2025-01-19 17:16:13 [Test worker] DEBUG:: Reports generated in: 655 ms

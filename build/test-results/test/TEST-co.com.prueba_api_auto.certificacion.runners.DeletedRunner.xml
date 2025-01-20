@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.prueba_api_auto.certificacion.runners.DeletedRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-K4UJ5QC" time="0.0">
+  <properties/>
+  <system-out><![CDATA[2025-01-19 18:05:06 [Test worker] DEBUG:: Created injector for module net.thucydides.core.guice.ThucydidesModule
+2025-01-19 18:05:06 [Test worker] DEBUG:: Running feature from file:///C:/Users/USUARIO/Documents/Automatización-Teoría/apis/SOAP/co.com.prueba_api_auto.certificacion/co.com.prueba_api_auto.certificacion/src/test/resources/features/eliminar_usuario.feature
+2025-01-19 18:05:07 [Test worker] DEBUG:: Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+2025-01-19 18:05:07 [Test worker] INFO :: 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2025-01-19 18:05:07 [Test worker] DEBUG:: Test suite started for story net.thucydides.core.model.Story@5623939
+2025-01-19 18:05:07 [Test worker] INFO :: Test Suite Started: Prueba de put
+2025-01-19 18:05:07 [Test worker] DEBUG:: Running feature from file:///C:/Users/USUARIO/Documents/Automatización-Teoría/apis/SOAP/co.com.prueba_api_auto.certificacion/co.com.prueba_api_auto.certificacion/src/test/resources/features/eliminar_usuario.feature
+2025-01-19 18:05:07 [Test worker] DEBUG:: Test suite started for story net.thucydides.core.model.Story@5623939
+2025-01-19 18:05:07 [Test worker] INFO :: Test Suite Started: Prueba de put
+2025-01-19 18:05:11 [Test worker] DEBUG:: Reporting formats: [JSON, HTML]
+2025-01-19 18:05:12 [Test worker] DEBUG:: Reporting formats: [JSON, HTML]
+2025-01-19 18:05:12 [Test worker] DEBUG:: Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@3883b5e9
+2025-01-19 18:05:12 [pool-1-thread-1] DEBUG:: Processing test outcome Prueba de put:Eliminar de usuario
+2025-01-19 18:05:12 [pool-1-thread-1] DEBUG:: net.thucydides.core.reports.json.JSONTestOutcomeReporter@3883b5e9: Generating report for test outcome: Prueba de put:Eliminar de usuario
+2025-01-19 18:05:12 [pool-1-thread-1] DEBUG:: Generating JSON report for Eliminar de usuario to file C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\target\site\serenity\12d24ccb4204709b70e543365a61b66675cb46eb057d809d9b5b11840d9e4277.json (using temp file C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\target\site\serenity\12d24ccb4204709b70e543365a61b66675cb46eb057d809d9b5b11840d9e4277.jsonb71f97c2-84cb-4dd0-adec-fce5e29e348c)
+2025-01-19 18:05:12 [pool-1-thread-1] DEBUG:: Processing test outcome Prueba de put:Eliminar de usuario done
+2025-01-19 18:05:12 [Test worker] DEBUG:: Shutting down executor service
+2025-01-19 18:05:12 [Test worker] DEBUG:: Reports generated in: 57 ms
+2025-01-19 18:05:12 [Test worker] DEBUG:: Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2d3eb1ea
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Processing test outcome Prueba de put:Eliminar de usuario
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2d3eb1ea: Generating report for test outcome: Prueba de put:Eliminar de usuario
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\actualizacion_usuario.feature
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\consultar_usuarios.feature
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\creacion_usuario.feature
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading feature C:\Users\USUARIO\Documents\Automatización-Teoría\apis\SOAP\co.com.prueba_api_auto.certificacion\co.com.prueba_api_auto.certificacion\src\test\resources\features\eliminar_usuario.feature
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Requirements loaded in 00:00:00.046
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Requirements loaded and indexed in 00:00:00.048
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/default.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/default_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/default_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/default.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/default.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/default.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/favicon.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/favicon_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/favicon_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/favicon.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/favicon.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/favicon.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/common.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/common_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/common_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/common.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/common.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/common.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/bootstrap-icons.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/bootstrap-icons_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/bootstrap-icons_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/bootstrap-icons.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/bootstrap-icons.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/bootstrap-icons.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/jquery.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/jquery.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/jquery.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/treeview.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/treeview_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/treeview_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/treeview.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/treeview.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/treeview.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/datatables.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/datatables_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/datatables_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/datatables.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/datatables.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/datatables.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/css.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/css_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/css_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/css.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/css.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/css.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/jquery-ui.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/jquery-ui.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/jquery-ui.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: "freemarker/libraries/datatables.ftl"("en_GB", utf-8, parsed) cached copy not yet stale; using cached.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/libraries/imgpreview.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/libraries/imgpreview.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/libraries/imgpreview.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/components/report-data.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/report-data_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/report-data_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/report-data.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/components/report-data.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/components/report-data.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/components/stacktrace.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/stacktrace_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/stacktrace_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/components/stacktrace.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/components/stacktrace.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/components/stacktrace.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Couldn't find template in cache for "freemarker/menu.ftl"("en_GB", utf-8, parsed); will try to load it.
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/menu_en_GB.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/menu_en.ftl"): Not found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: TemplateLoader.findTemplateSource("freemarker/menu.ftl"): Found
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Loading template for "freemarker/menu.ftl"("en_GB", utf-8, parsed) from "jar:file:/C:/Users/USUARIO/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/3.7.0/96f228fbab13292303911829acf2cdea13c980b5/serenity-report-resources-3.7.0.jar!/freemarker/menu.ftl"
+2025-01-19 18:05:12 [pool-2-thread-1] DEBUG:: Processing test outcome Prueba de put:Eliminar de usuario done
+2025-01-19 18:05:12 [Test worker] DEBUG:: Shutting down executor service
+2025-01-19 18:05:12 [Test worker] DEBUG:: Reports generated in: 599 ms
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
+]]></system-err>
+</testsuite>

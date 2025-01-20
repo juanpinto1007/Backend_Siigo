@@ -1,0 +1,10 @@
+co/com/prueba_api_auto/certificacion/stepDefinitions/GeneralStep.java
+ co.com.prueba_api_auto.certificacion.stepDefinitions.GeneralStep
+co/com/prueba_api_auto/certificacion/stepDefinitions/CommonStep.java
+ co.com.prueba_api_auto.certificacion.stepDefinitions.CommonStep
+co/com/prueba_api_auto/certificacion/runners/PostRunner.java
+ co.com.prueba_api_auto.certificacion.runners.PostRunner
+co/com/prueba_api_auto/certificacion/runners/PutRunner.java
+ co.com.prueba_api_auto.certificacion.runners.PutRunner
+co/com/prueba_api_auto/certificacion/runners/GeneralRunner.java
+ co.com.prueba_api_auto.certificacion.runners.GeneralRunner
